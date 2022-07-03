@@ -1,15 +1,33 @@
-# Basic Sample Hardhat Project
+## A full stack web3 on-chain blog and CMS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+To deploy this app:
 
-Try running some of the following tasks:
+1. Clone this repository
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+```sh
+git clone git@github.com:0xSSDD/web3-blog.git
+```
+
+2. Install the dependencies
+
+```sh
+npm install
+```
+
+3. Run the local node
+
+```sh
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+
+4. Deploy to localhost
+
+```sh
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+5. Start the app
+
+```sh
+npm start
 ```
